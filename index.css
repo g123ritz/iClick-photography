@@ -1,0 +1,341 @@
+html{
+scroll-behavior: smooth;
+} 
+body{
+    
+   font-family: "IBM Plex Serif", serif;
+    margin:0px;
+    padding:0px;
+   
+}
+
+header {
+ 
+ padding:10px;
+ margin-left:30px;
+ margin-right:30px;
+ display:flex;
+ height:70px;
+ justify-content: space-between; 
+ font-size:20px;
+ border: 2px solid white;
+ align-items: center; 
+
+}
+header a{
+    text-decoration: none;
+    color:black;
+}
+nav ul{
+    text-transform: uppercase;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    margin-left: auto;
+    
+}
+ul li{
+    margin:10px;
+    padding:10px;
+}
+.image-container {
+    position: relative;
+   display: inline-block; /*Ensure the container only takes the necessary width */
+   
+  }
+  .image-container img {
+    max-width:100%; /* Make sure the image is responsive */
+    height:90%; 
+    /* overflow: hidden;  */
+  }
+  .text-overlay {
+    position: absolute;
+    top: 25%; /* Adjust vertical position as needed */
+    left: 50%; /* Adjust horizontal position as needed */
+    transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+    color: white;
+    padding: 20px;
+  }
+  
+  .text-overlay h1,
+  .text-overlay h2,
+  .text-overlay p {
+    margin: 0;
+    padding: 5px;
+  }
+  .about-container{
+    height: 800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid plum;
+   background-color: rgb(238, 211, 238);
+}
+ .about-main{
+    display: flex;
+    gap: 20px;
+ }
+ .about-left{
+    flex: 1;
+ }
+
+  .about-right{
+   
+    flex: 3;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .about-top{
+  
+    margin: 10px;
+    padding: 10px;
+  }
+  .about-top h3 ,.about-top h5{
+   
+    text-transform: uppercase;
+  }
+  .worker{
+    text-align:center;
+  }
+  .team_image{
+    display:flex;
+  }
+  .Images{
+    width: auto;
+    border-radius:50%;
+    border:2px solid black;
+    margin-left:70px;
+    padding: 2px;
+  }
+.services{
+    border: 2px solid rgb(181, 160, 221);
+    background-color:rgb(220, 213, 233) ;
+    height: 950px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+   
+
+}
+  .services-top {
+    text-align: center;
+    padding: 0px 0px 50px 0px;
+}
+.services-grid {
+    padding: 0px 0px 30px 0px;
+    display: flex;
+    gap: 20px;
+}
+.services-left{
+    flex: 3;
+}
+.services-right{
+    flex: 1;
+}
+.gallery{
+    border: 2px solid rgb(239, 121, 203);
+    background-color:rgb(238, 227, 235) ;
+    height: 700px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.port-folio-top {
+   
+    text-align: center;
+    text-transform: uppercase;
+}
+.port-folio-bottom {
+    padding: 1px 0px 0px 0px;
+}
+div#portfoliolist {
+    margin-top: 20px;
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.portfolio-wrapper {
+    overflow: hidden;
+    position: relative !important;
+    cursor: pointer;
+    margin: 0em 0em 0px 0px;
+    padding: 0px;
+}
+.b-link-stripe {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    overflow: hidden;
+}
+.portfolio-bwn{
+    text-align: center;
+}
+.portfolio-bwn a{
+ color: black;
+ border: 2px solid black;
+ font-size: 15px;
+ text-decoration: none;
+}
+.price{
+    border: 2px solid rgb(150, 242, 187);
+    background-color:rgb(226, 242, 221) ;
+    height: 700px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.price_container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.price-top{
+    text-align: center;
+}
+.price-bottom{
+    display: flex;
+}
+.price-grid{
+    text-align: center;
+    border: 2px solid rgb(150, 242, 187);
+    background-color: #f0f0f0; /* Set the default background color */
+    transition: background-color 0.3s ease;
+}
+.price-grid:hover {
+    background-color:rgb(81, 236, 34); /* Set the background color on hover */
+  }
+ .order{
+    margin: 20px;
+    width: 30%;
+    height:70%;
+    
+}
+.price-grid li{
+list-style: none;
+
+}
+.price-grid li a{
+    
+    text-decoration:none;
+    color:black;
+}
+.price-grid h4{
+    text-align: center;
+     font-size: 30px;
+    color: #fff;
+    background: rgb(182, 174, 236);
+    width: 40%;
+    margin: 20px auto 20px;
+    padding: 20px 5px;
+    border-radius: 78px;
+}
+.price-grid h5 {
+    font-size: 15px;
+    color: #000;
+}
+.price-grid h6 {
+    font-size: 15px;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+.contact{
+   
+        
+        background-image:url("./Images/wp6944127.webp");
+        background-size: cover; 
+        height: 700px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    
+}
+.contact-top{
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size:25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-bottom {
+    padding: 35px;
+    display:flex;
+    
+}
+form{
+    padding-right: 15px;
+        padding-left: 15px;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+}
+.contact-bottom input[type="text"] {
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #999;
+    padding: 15px;
+    border-radius: 2px;
+    width:28%;
+    border: none;
+    background: #fff;
+    margin: 0px 18px 10px 0px;
+}
+.contact-bottom textarea {
+    font-size: 17px;
+    font-weight: 200;
+    color: #999;
+    width:94%;
+    margin: 10px 0px 15px 0px;
+    padding: 15px;
+    background: #fff;
+    outline: none;
+    /* resize: none; */
+    border: none;
+    height:100px;
+    border-radius: 2px;
+}
+.con-send input[type="submit"] {
+    font-size: 17px;
+    font-weight: 400;
+    color: #999;
+    background: #fff;
+    border: none;
+    outline: none;
+    padding: 12px 80px;
+    border-radius: 3px;
+    text-align: center;
+  
+   
+}
+    footer {
+    margin:30px;
+    padding: 30px 0px;
+}
+.footer-left {
+    float: left;
+}
+  
+.footer-right{
+    float:right;
+}
+  
+  
